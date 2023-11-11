@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "Lato",sans-serif;
+    color: #54575A;
+    background: linear-gradient(180deg, #FFF 0%, #F3F8F7 49.91%, #FFF9F5 94.19%);
+}
+
+.wrapper {
+    position: relative;
+    width: 1440px;
+    height: 1379px;
+    margin: auto;
+}
+
+.brand-img {
+    position: absolute;
+    width: 193px;
+    height: 47.638px;
+    left: 221px;
+    top: 50.25px;
+}
+
+.title {
+    position: absolute;
+    width: 458px;
+    margin-top: 15px;
+    height: 135px;
+    top: 236px;
+    left: 221px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 67px; 
+ 
+}
+
+.text{
+    position: absolute;
+    width: 394px;
+    height: 96px;
+    top: 375px;
+    left: 221px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 32px; 
+}
+
+.app-store-btn {
+    position: absolute;
+    width: 138.443px;
+    height: 46.278px;
+    left: 221px;
+    top: 490px;
+}
+
+.app-store-btn img {
+    width: 138.443px;
+    height: 46.278px;
+}
+
+.google-play-btn {
+    position: absolute;
+    width: 156.186px;
+    height: 46.277px;
+    left: 381px;
+    top: 490px;
+}
+
+.google-play-btn img {
+    width: 156.186px;
+    height: 46.277px;
+}
+
+.main-image-container {
+    position: absolute;
+    width: 535.717px;
+    height: 309.27px;
+    left: 683.28px;
+    top: 229.73px;
+}
+
+.main-image-container img {
+    height: 411.152px;
+}
+
+.profile-img {
+ position: absolute;
+ height: 444px;
+ left: 737px;
+ right: 479px;
+ top: 686px;
+}
+
+.product-img {
+ position: absolute;
+ height: 222px;
+ left: 737px;
+ right: 479px;
+ top: 1157px;
+}
+
+.orders-img {
+ position: absolute;
+ height: 470px;
+ left: 479px;
+ right: 737px;
+ top: 913px;
+}
+
+.cart-img {
+    position: absolute;
+    height: 222px;
+    left: 221px;
+    right: 995px;
+    top: 1157px;
+}
+
+.home-img {
+    position: absolute;
+    height: 470px;
+    left: 995px;
+    right: 221px;
+    top: 908px;
+}
